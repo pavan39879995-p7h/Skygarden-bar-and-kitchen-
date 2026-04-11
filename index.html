@@ -1,269 +1,173 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Diagnostics | Blood Test & Lab in Basaveshwar Nagar Bangalore</title>
 
-<title>Skygarden Bar & Kitchen | Koramangala Rooftop Bar</title>
+<meta name="description" content="Best Diagnostics Bangalore offering blood tests, lab services, health checkups with fast reports and trusted service. Book appointments online.">
 
-<meta name="description"
-content="Skygarden Bar & Kitchen Koramangala Bangalore rooftop restaurant offering cocktails, nightlife and premium dining experience.">
+<meta name="keywords" content="diagnostic center Bangalore, blood test near me, lab tests Basaveshwar Nagar, Best Diagnostics Bangalore">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
-rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
 
 body{
-
 margin:0;
 font-family:Poppins;
-background:#0a0a0a;
-color:white;
-
+background:#f9fbfd;
+color:#222;
 }
 
 header{
-
 display:flex;
 justify-content:space-between;
 padding:20px 8%;
-background:black;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
 position:sticky;
 top:0;
-
 }
 
 nav a{
-
-color:white;
+margin-left:20px;
 text-decoration:none;
-margin-left:25px;
-font-size:14px;
-
+color:#333;
+font-weight:500;
 }
 
 .hero{
-
 height:90vh;
-
-background:
-
-linear-gradient(rgba(0,0,0,.7),
-rgba(0,0,0,.7)),
-
-url("https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1920");
-
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1588776814546-ec7e7c3b5b47?q=80&w=1920");
 background-size:cover;
-
 display:flex;
-
 flex-direction:column;
-
 justify-content:center;
-
-padding-left:8%;
-
+padding:0 8%;
+color:white;
 }
 
 .hero h1{
-
-font-size:55px;
-
+font-size:48px;
 margin:0;
-
 }
 
 .hero p{
-
-color:#ccc;
-
 margin:10px 0;
-
+color:#ddd;
 }
 
 .btn{
-
-background:gold;
-
-color:black;
-
-padding:14px 30px;
-
+background:#0077ff;
+color:white;
+padding:14px 28px;
 border-radius:6px;
-
 text-decoration:none;
-
-font-weight:600;
-
 display:inline-block;
-
 margin-top:20px;
-
 }
 
 section{
-
 padding:80px 8%;
-
 }
 
 h2{
-
-font-size:32px;
-
+font-size:30px;
 margin-bottom:20px;
-
 }
 
-.about{
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
 
-max-width:700px;
-
-color:#ccc;
-
-line-height:1.7;
-
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
 }
 
 .gallery{
-
 display:grid;
-
-grid-template-columns:
-
-repeat(auto-fit,minmax(300px,1fr));
-
-gap:25px;
-
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 }
 
 .gallery img{
-
 width:100%;
-
 border-radius:10px;
-
-height:260px;
-
+height:220px;
 object-fit:cover;
-
 }
 
-.menu{
-
+.reviews{
 display:grid;
-
-grid-template-columns:
-
-repeat(auto-fit,minmax(250px,1fr));
-
-gap:25px;
-
+gap:20px;
 }
 
-.menu div{
-
-background:#111;
-
-padding:25px;
-
+.review{
+background:white;
+padding:20px;
 border-radius:10px;
-
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
 }
 
-.contact{
-
+.appointment{
 text-align:center;
-
+background:#eef5ff;
+padding:60px;
+border-radius:10px;
 }
 
-input{
-
-width:260px;
-
+input,select{
 padding:12px;
-
 margin:10px;
-
-border:none;
-
+width:250px;
 border-radius:6px;
-
+border:1px solid #ccc;
 }
 
 button{
-
-background:gold;
-
+background:#0077ff;
+color:white;
 border:none;
-
 padding:14px 30px;
-
 border-radius:6px;
-
-font-weight:600;
-
 }
 
 footer{
-
-text-align:center;
-
-padding:30px;
-
-background:black;
-
+background:#111;
 color:#aaa;
-
+text-align:center;
+padding:30px;
 }
 
 .whatsapp{
-
 position:fixed;
-
 bottom:20px;
-
 right:20px;
-
 background:#25D366;
-
-padding:16px;
-
+padding:15px;
 border-radius:50px;
-
 color:white;
-
 text-decoration:none;
-
-font-weight:600;
-
 }
 
 .call{
-
 position:fixed;
-
-bottom:90px;
-
+bottom:80px;
 right:20px;
-
-background:gold;
-
-padding:16px;
-
+background:#0077ff;
+padding:15px;
 border-radius:50px;
-
-color:black;
-
+color:white;
 text-decoration:none;
-
-font-weight:600;
-
 }
 
 </style>
@@ -274,231 +178,157 @@ font-weight:600;
 
 <header>
 
-<h2>Skygarden</h2>
+<h2>Best Diagnostics</h2>
 
 <nav>
-
 <a href="#">Home</a>
-
-<a href="#about">About</a>
-
+<a href="#services">Services</a>
 <a href="#gallery">Gallery</a>
-
-<a href="#menu">Menu</a>
-
-<a href="#contact">Reserve</a>
-
+<a href="#reviews">Reviews</a>
+<a href="#appointment">Appointment</a>
 </nav>
 
 </header>
 
-
 <section class="hero">
 
-<h1>Skygarden Bar & Kitchen</h1>
+<h1>Accurate Testing. Trusted Care.</h1>
 
-<p>Koramangala Rooftop Dining Experience</p>
+<p>Fast Reports • Affordable Prices • Skilled Staff</p>
 
-<p>⭐ 4.4 Rating • ₹1500 for two • Open till midnight</p>
+<p>⭐ 4.8 Rating • Basaveshwar Nagar Bangalore</p>
 
-<a
-href="#contact"
-class="btn">
-
-Reserve Table
-
-</a>
+<a href="#appointment" class="btn">Book Appointment</a>
 
 </section>
 
+<section id="services">
 
-<section id="about">
+<h2>Our Services</h2>
 
-<h2>About</h2>
+<div class="services">
 
-<p class="about">
+<div class="card">
+<h3>Blood Tests</h3>
+<p>All types of routine and advanced blood tests with accurate results.</p>
+</div>
 
-Skygarden Bar & Kitchen is a premium rooftop restaurant in Koramangala Bangalore known for cocktails, nightlife, group dining and vibrant ambience. The restaurant offers Asian cuisine, bar food and party experiences making it one of the popular nightlife spots in the area.
+<div class="card">
+<h3>Full Body Checkup</h3>
+<p>Comprehensive health packages for complete diagnosis.</p>
+</div>
 
-</p>
+<div class="card">
+<h3>Diabetes Tests</h3>
+<p>Regular sugar level testing and monitoring services.</p>
+</div>
 
-<p>
+<div class="card">
+<h3>Home Collection</h3>
+<p>Sample collection at your home for convenience.</p>
+</div>
 
-📍 5th Block Koramangala Bangalore  
-🕐 12PM – 12AM  
-📞 +91 9008710642  
-
-</p>
-
-<a class="btn"
-href="https://maps.google.com/?q=Skygarden Koramangala"
-target="_blank">
-
-Get Directions
-
-</a>
+</div>
 
 </section>
-
 
 <section id="gallery">
 
-<h2>Experience Skygarden</h2>
+<h2>Our Facility</h2>
 
 <div class="gallery">
 
-<img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5">
-
-<img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0">
-
-<img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187">
-
-<img src="https://images.unsplash.com/photo-1516997121675-4c2d1684aa3e">
-
-<img src="https://images.unsplash.com/photo-1552566626-52f8b828add9">
-
-<img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b">
+<img src="https://images.unsplash.com/photo-1588776814546-ec7e7c3b5b47">
+<img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118">
+<img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b">
+<img src="https://images.unsplash.com/photo-1579165466741-7f35e4755660">
 
 </div>
 
 </section>
 
+<section id="reviews">
 
-<section id="menu">
+<h2>Patient Reviews</h2>
 
-<h2>Popular Menu</h2>
+<div class="reviews">
 
-<div class="menu">
-
-<div>
-
-<h3>Starters</h3>
-
-Dragon Chicken  
-Chilli Paneer  
-Crispy Corn  
-
+<div class="review">
+⭐ ⭐ ⭐ ⭐ ⭐  
+<p>Very clean and hygienic. Staff is professional and friendly.</p>
 </div>
 
-<div>
-
-<h3>Main Course</h3>
-
-Noodles  
-Fried Rice  
-Manchurian  
-
+<div class="review">
+⭐ ⭐ ⭐ ⭐ ⭐  
+<p>Quick service and accurate reports. Highly recommended.</p>
 </div>
 
-<div>
-
-<h3>Bar Menu</h3>
-
-Craft Cocktails  
-Beer Pitchers  
-Mocktails  
-
+<div class="review">
+⭐ ⭐ ⭐ ⭐ ⭐  
+<p>Affordable pricing and good experience overall.</p>
 </div>
 
 </div>
 
 </section>
 
+<section id="appointment">
 
-<section class="contact"
-id="contact">
+<h2>Book Appointment</h2>
 
-<h2>Reserve a Table</h2>
+<div class="appointment">
 
-<p>Book directly via WhatsApp or phone</p>
+<p>Fill details and our team will contact you</p>
 
-<input placeholder="Name">
-
-<input placeholder="Phone">
+<input placeholder="Your Name">
+<input placeholder="Phone Number">
 
 <br>
 
-<button>
+<select>
+<option>Select Test</option>
+<option>Blood Test</option>
+<option>Full Body Checkup</option>
+<option>Diabetes Test</option>
+</select>
 
-Request Reservation
+<br>
 
-</button>
+<button>Request Appointment</button>
 
 <br><br>
 
-<a class="btn"
-href="https://wa.me/919008710642"
-target="_blank">
+<a href="https://wa.me/918197912731" class="btn">Book via WhatsApp</a>
 
-Book on WhatsApp
-
-</a>
+</div>
 
 </section>
 
-
 <section>
 
-<h2>Location</h2>
+<h2>Find Us</h2>
 
 <iframe
-
-src="https://maps.google.com/maps?q=Skygarden Koramangala&output=embed"
-
+src="https://maps.google.com/maps?q=Basaveshwar Nagar Bangalore&output=embed"
 width="100%"
-
 height="350"
-
 style="border:0">
-
 </iframe>
 
 </section>
 
-
 <footer>
 
-© 2026 Skygarden Bar & Kitchen
+© 2026 Best Diagnostics
 
 <br><br>
 
-<a href="https://instagram.com"
-style="color:gold">
-
-Instagram
-
-</a>
-
-|
-
-<a href="https://zomato.com"
-style="color:gold">
-
-Zomato
-
-</a>
+📞 +91 81979 12731
 
 </footer>
 
-
-<a
-href="https://wa.me/919008710642"
-class="whatsapp">
-
-WhatsApp
-
-</a>
-
-
-<a
-href="tel:+919008710642"
-class="call">
-
-Call
-
-</a>
-
+<a href="https://wa.me/918197912731" class="whatsapp">WhatsApp</a>
+<a href="tel:+918197912731" class="call">Call</a>
 
 </body>
-
 </html>
